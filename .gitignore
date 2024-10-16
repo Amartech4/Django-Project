@@ -1,2 +1,41 @@
 .venv
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Django stuff:
+*.log
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+
+# Ignore migrations
+**/migrations/*
+!**/migrations/__init__.py  # Keep __init__.py files
+
+# Static files
+/static/
+media/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
